@@ -3,7 +3,7 @@ const net = require('net');
 // ================== CONFIG ==================
 const IP = "104.234.6.0";   // localhost / lab testing
 const Port = 25565;
-const MaxThreads = 100;
+const MaxThreads = 10000;
 const TimeoutMs = 100;
 const LoopDelay = 100;
 // ============================================
