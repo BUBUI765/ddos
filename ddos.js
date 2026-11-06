@@ -1,7 +1,7 @@
 const net = require('net');
 
 // ================== CONFIG ==================
-const TARGET_IP = "104.234.6.0"; 
+const TARGET_IP = "185.107.192.163"; 
 const TARGET_PORT = 25565;
 const MAX_CONCURRENT = 300; // Lower is better for accurate ping tracking
 const TIMEOUT_MS = 500;     // Higher timeout allows ping to be measured on slow links
